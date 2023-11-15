@@ -1,0 +1,22 @@
+// Cache the DOM
+var button=document.getElementById("button")
+var nume=document.getElementById("nume")
+var prenume=document.getElementById("prenume")
+var img=document.getElementById("image")
+var asteptari=document.getElementById("educatie")
+
+// Add eventListeners
+buton.addEventListener("click",altaviata)
+
+function altaviata ()
+{
+nume.innerHTML="Functie:Senior Java Dev"
+asteptari.innerHTML="Experiente: <ol><li> internship </li></ol>"
+img.src=
+body.style.backgroundColor="orange"
+body.style.color="yellow"
+
+img.style.opacity="60%"
+
+img.style.borderWidth="20px"
+}
