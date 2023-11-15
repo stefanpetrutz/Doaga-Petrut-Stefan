@@ -4,10 +4,20 @@ var nume=document.getElementById("nume")
 var prenume=document.getElementById("prenume")
 var img=document.getElementById("image")
 var asteptari=document.getElementById("educatie")
+var an=document.getElementById("anNastere")
+
+const d= new Date()
+var anCurent=d.getFullYear()
 
 // Add eventListeners
 buton.addEventListener("click",altaviata)
+an.addEventListener("mouseover",displayAge)
+function displayAge
+{
+an.innerHTML=anCurent-an.innerHTML;
 
+
+}
 function altaviata ()
 {
 nume.innerHTML="Functie:Senior Java Dev"
